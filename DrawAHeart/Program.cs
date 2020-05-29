@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Draw-A-Heart
+namespace DrawAHeart
 {
     class Program
     {
