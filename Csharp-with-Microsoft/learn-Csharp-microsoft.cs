@@ -7,9 +7,13 @@ namespace Csharp_with_Microsoft
         static void Main(string[] args)
         {
             Console.WriteLine("Hello my friends");
-            string aFriend1 = "ThanhSon";
-            string aFriend2 = "KhacThinh";
-            Console.WriteLine($"My friends are {aFriend1} and {aFriend2}");
+            string aF1 = "ThanhSon";
+            string aF2 = "KhacThinh";
+            Console.WriteLine($"My friends are {aF1} and {aF2}");
+            Console.WriteLine($"the name {aF1} has {aF1.Length} words");
+            Console.WriteLine($"the name {aF2} has {aF2.Length} words");
+
+            string whatisL = "    She is NGOC    ";
             
         }
     }
