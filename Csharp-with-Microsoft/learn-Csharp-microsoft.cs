@@ -14,7 +14,7 @@ namespace Csharp_with_Microsoft
             Console.WriteLine($"the name {aF2} has {aF2.Length} words");
 
             string whatisL = "    She is NGOC    ";
-            
+            Console.WriteLine($"[{whatisL}]");
         }
     }
 }
