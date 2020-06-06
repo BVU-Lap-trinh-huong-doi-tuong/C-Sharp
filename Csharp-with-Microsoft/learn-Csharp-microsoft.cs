@@ -15,7 +15,7 @@ namespace Csharp_with_Microsoft
 
             string whatisL = "    She is NGOC    ";
             Console.WriteLine($"[{whatisL}]");
-            Console.WriteLine("Who is she")
+            Console.WriteLine("Who is she");
         }
     }
 }
