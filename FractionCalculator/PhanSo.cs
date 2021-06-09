@@ -10,33 +10,40 @@ namespace FractionCalculator
     {
         int TuSo;
         int MauSo;
-        void NhieuPhanSo()
-        {
 
-        }
-        public void NhapPhanSo()
+        public void nhapPhanSo()
         {
-            Console.Write("Nhap tu so:");
+            Console.Write("Nhập tử số: ");
             TuSo = int.Parse(Console.ReadLine());
-            Console.Write("Nhap mau so:");
+            Console.Write("Nhập mẫu số: ");
             MauSo = int.Parse(Console.ReadLine());
         }
-        void XuatPhanSo()
+        
+        public void xuatPhanSo()
         {
-            Console.Write("Tu so la: " + TuSo);
-            Console.Write("Mau so la: " + MauSo);
+            Console.WriteLine("Phân số của bạn là:" );
+            Console.WriteLine(TuSo);
+            if (TuSo > 9 || MauSo > 9)
+            {
+                Console.WriteLine("---");
+            }
+            else
+            {
+                Console.WriteLine("--");
+            }
+            Console.WriteLine(MauSo);
         }
-        int LayTuSo()
+        public int LayTuSo()
         {
             return TuSo;
         }
-        int LayMauSo()
+        public int LayMauSo()
         {
             return MauSo;
         }
-        void GanTuSo() {TuSo = int.Parse(Console.ReadLine());}
-        void GanMauSo(){MauSo = int.Parse(Console.ReadLine());}
-        void NghichDao()
+        public void GanTuSo() {TuSo = int.Parse(Console.ReadLine());}
+        public void GanMauSo(){MauSo = int.Parse(Console.ReadLine());}
+        public void NghichDao()
         {
             TuSo = MauSo;
             MauSo = TuSo;
@@ -45,7 +52,7 @@ namespace FractionCalculator
             Console.WriteLine("--");
             Console.WriteLine(MauSo);
         }
-        void RutGon()
+        public void RutGon()
         {
             if (MauSo > TuSo)
             {
@@ -59,7 +66,7 @@ namespace FractionCalculator
                 }
             }
         }
-        void CongPhanSo()
+        public void CongPhanSo()
         {
             int TuSo2;
             int MauSo2;
@@ -80,19 +87,19 @@ namespace FractionCalculator
             }
             Console.WriteLine("Phan so moi la: " + TuSo + "/" + MauSo);
         }
-        void TruPhanSo()
+        public void TruPhanSo()
         {
 
         }
-        void NhanPhanSo()
+        public void NhanPhanSo()
         {
 
         }
-        void ChiaPhanSo()
+        public void ChiaPhanSo()
         {
 
         }
-        bool SoSanhPhanSo()
+        public bool SoSanhPhanSo()
         {
              return false;
         }
