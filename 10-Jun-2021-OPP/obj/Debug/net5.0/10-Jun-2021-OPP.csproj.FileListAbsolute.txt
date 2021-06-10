@@ -1,0 +1,16 @@
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\obj\Debug\net5.0\10-Jun-2021-OPP.csproj.AssemblyReference.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\obj\Debug\net5.0\10-Jun-2021-OPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\obj\Debug\net5.0\10-Jun-2021-OPP.AssemblyInfoInputs.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\obj\Debug\net5.0\10-Jun-2021-OPP.AssemblyInfo.cs
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\obj\Debug\net5.0\10-Jun-2021-OPP.csproj.CoreCompileInputs.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\bin\Debug\net5.0\10-Jun-2021-OPP.exe
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\bin\Debug\net5.0\10-Jun-2021-OPP.deps.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\bin\Debug\net5.0\10-Jun-2021-OPP.runtimeconfig.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\bin\Debug\net5.0\10-Jun-2021-OPP.runtimeconfig.dev.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\bin\Debug\net5.0\10-Jun-2021-OPP.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\bin\Debug\net5.0\ref\10-Jun-2021-OPP.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\bin\Debug\net5.0\10-Jun-2021-OPP.pdb
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\obj\Debug\net5.0\10-Jun-2021-OPP.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\obj\Debug\net5.0\ref\10-Jun-2021-OPP.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\obj\Debug\net5.0\10-Jun-2021-OPP.pdb
+C:\Users\taqua\source\repos\OPPwithC-Sharp\10-Jun-2021-OPP\obj\Debug\net5.0\10-Jun-2021-OPP.genruntimeconfig.cache

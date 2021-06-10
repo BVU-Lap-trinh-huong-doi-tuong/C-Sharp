@@ -47,24 +47,13 @@ namespace FractionCalculator
         {
             TuSo = MauSo;
             MauSo = TuSo;
-            Console.WriteLine("Phan so nghich dao la: ");
+            Console.WriteLine("Phân số nghịch đảo là: ");
             Console.WriteLine(TuSo);
             Console.WriteLine("--");
             Console.WriteLine(MauSo);
         }
         public void RutGon()
         {
-            if (MauSo > TuSo)
-            {
-                if (MauSo % TuSo != 0)
-                {
-                    MauSo = MauSo / TuSo;
-                }
-                else
-                {
-
-                }
-            }
         }
         public void CongPhanSo()
         {

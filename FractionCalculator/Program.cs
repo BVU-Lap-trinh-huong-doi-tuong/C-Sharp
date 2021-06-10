@@ -29,10 +29,14 @@ namespace FractionCalculator
                 Console.Clear();
             }
         }
-        static int UocChungLonNhat()
+        public static int UocChungLonNhat(int a, int b)
         {
-            int UCLN;
-            return UCLN;
+            if ( a % b == 0)
+            {
+                return b;
+            }
+            
+            return UocChungLonNhat(b, b % a);
         }
         static void Main(string[] args)
         {
@@ -47,12 +51,13 @@ namespace FractionCalculator
                 Console.WriteLine("Máy tình Phân số Đơn Giản ({0})",VongLap);
                 Console.WriteLine("   1. Nhập phân số của bạn");
                 Console.WriteLine("   2. Hiện các phân số mà tôi vừa nhập");
-                Console.WriteLine("   3. Rút gọn phân số");
-                Console.WriteLine("   4. Quy đồng mẫu hai phân số");
-                Console.WriteLine("   5. Cộng hai phân số");
-                Console.WriteLine("   6. Trừ hai phân số");
-                Console.WriteLine("   7. Nhân hai phân số");
-                Console.WriteLine("   8. Chia hai phân số");
+                Console.WriteLine("   3. Phân Số nghịch đảo");
+                Console.WriteLine("   4. Rút gọn phân số");
+                Console.WriteLine("   5. Quy đồng mẫu hai phân số");
+                Console.WriteLine("   6. Cộng hai phân số");
+                Console.WriteLine("   7. Trừ hai phân số");
+                Console.WriteLine("   8. Nhân hai phân số");
+                Console.WriteLine("   9. Chia hai phân số");
                 Console.Write("Chọn chức năng bạn muốn sử dụng..! --> ");
                 int ChucNang = int.Parse(Console.ReadLine());
                 switch(ChucNang){
@@ -77,11 +82,11 @@ namespace FractionCalculator
                         }
                     case 3: // Rút gọn phân sớ
                         {
-
+                            break;
                         }
                     case 4: // Quy đồng mẩu hai phân số
                         {
-                            int MauSoChung = ps1.MauSo * ps2.MauSo;
+                            int MauSoChung = ps1.LayMauSo() * ps2.LayMauSo();
                             int TuSo1 = ps1.LayTuSo() * ps2.LayMauSo();
                             int TuSo2 = ps2.LayTuSo() * ps1.LayMauSo();
                             PhanSo ps1m = new PhanSo();
