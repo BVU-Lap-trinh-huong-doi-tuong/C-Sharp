@@ -29,15 +29,7 @@ namespace FractionCalculator
                 Console.Clear();
             }
         }
-        public static int UocChungLonNhat(int a, int b)
-        {
-            if ( a % b == 0)
-            {
-                return b;
-            }
-            
-            return UocChungLonNhat(b, b % a);
-        }
+        
         static void Main(string[] args)
         {
             int HienPhanSo = 1;
@@ -121,14 +113,16 @@ namespace FractionCalculator
                             DiTiep();
                             break;
                         }
-                    case 3: // Phân Số nghịch đảo
+                    case 3: // Phân Số nghịch đảo - DONE
                         {
                             ps1.NghichDao();
                             ps2.NghichDao();
                             break;
                         }
-                    case 4: // Rút gọn phân sớ
+                    case 4: // Rút gọn phân số
                         {
+                            ps1.RutGon();
+                            ps2.RutGon();
                             break;
                         }
                     case 5: // Quy đồng mẩu hai phân số

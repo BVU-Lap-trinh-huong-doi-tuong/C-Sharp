@@ -11,6 +11,15 @@ namespace FractionCalculator
         int TuSo;
         int MauSo;
 
+        public static int UocChungLonNhat(int a, int b)
+        {
+            if (a % b == 0)
+            {
+                return b;
+            }
+            else
+            return UocChungLonNhat(b, b % a);
+        }
         public void nhapPhanSo()
         {
             Console.Write("Nhập tử số: ");
@@ -33,6 +42,19 @@ namespace FractionCalculator
             }
             Console.WriteLine(MauSo);
         }
+        public void xuatPhanSo(int a, int b)
+        {
+            Console.WriteLine(a);
+            if (a > 9 || b > 9)
+            {
+                Console.WriteLine("---");
+            }
+            else
+            {
+                Console.WriteLine("--");
+            }
+            Console.WriteLine(b);
+        }
         public int LayTuSo()
         {
             return TuSo;
@@ -54,6 +76,20 @@ namespace FractionCalculator
         }
         public void RutGon()
         {
+            int UocChungLaGi;
+            if (TuSo > MauSo)
+            {
+                UocChungLaGi = UocChungLonNhat(TuSo, MauSo);
+            }
+            else
+            {
+                UocChungLaGi = UocChungLonNhat(MauSo, TuSo); 
+            }
+            int TuSoSauRutGon = TuSo / UocChungLaGi;
+
+            int MauSoSauRutGon = MauSo / UocChungLaGi;
+
+            xuatPhanSo(TuSoSauRutGon, MauSoSauRutGon);
         }
         public void CongPhanSo()
         {
