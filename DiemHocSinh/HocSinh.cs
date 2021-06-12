@@ -11,6 +11,12 @@ namespace DiemHocSinh
         string HoTen;
         float DiemVan, DiemToan;
 
+        public HocSinh() // Hàm khởi tạo
+        {
+            HoTen = "NoName";
+            DiemVan = 0;
+            DiemToan= 0;
+        }
         public void Nhap()
         {
             Console.WriteLine("Nhập tên sinh viên: ");

@@ -21,7 +21,7 @@ namespace FractionCalculator
         
         public void xuatPhanSo()
         {
-            Console.WriteLine("Phân số của bạn là:" );
+            // Console.WriteLine("Phân số của bạn là:" );
             Console.WriteLine(TuSo);
             if (TuSo > 9 || MauSo > 9)
             {
@@ -45,12 +45,12 @@ namespace FractionCalculator
         public void GanMauSo(){MauSo = int.Parse(Console.ReadLine());}
         public void NghichDao()
         {
-            TuSo = MauSo;
-            MauSo = TuSo;
+            int TuSoDao = MauSo;
+            int MauSoDao = TuSo;
             Console.WriteLine("Phân số nghịch đảo là: ");
-            Console.WriteLine(TuSo);
+            Console.WriteLine(TuSoDao);
             Console.WriteLine("--");
-            Console.WriteLine(MauSo);
+            Console.WriteLine(MauSoDao);
         }
         public void RutGon()
         {

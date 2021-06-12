@@ -9,7 +9,7 @@ namespace DiemHocSinh
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
-
+            Console.WriteLine("Phần Mềm");
             HocSinh hs1 = new HocSinh();
             HocSinh hs2 = new HocSinh();
             hs1.Nhap();
