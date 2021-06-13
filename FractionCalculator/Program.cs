@@ -165,7 +165,7 @@ namespace FractionCalculator
                         }
                     case 11: // Xóa tất cả phân số đã nhập - DONE
                         {
-                            ps1.GanTuSo(ps2);
+                            ps1.XoaPhanSo(ps2);
                             break;
                         }
                     default:

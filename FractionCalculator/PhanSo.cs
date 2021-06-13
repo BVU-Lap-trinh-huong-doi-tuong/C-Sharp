@@ -82,11 +82,7 @@ namespace FractionCalculator
             Console.WriteLine("--");
             Console.WriteLine(MauSoDao);
         }
-        public void NghichDao(2)
-        {
-            this.GanTuSo() = this.LayTuSo();
-            this.GanMauSo() = this.LayMauSo();
-        }
+        
         public void RutGon()
         {
             int UocChungLaGi;
@@ -157,7 +153,7 @@ namespace FractionCalculator
             this.GanTuSo(0);
             this.GanMauSo(0);
             ps.GanTuSo(0);
-            ps.GanmauSo(0);
+            ps.GanMauSo(0);
         }
     }
 }
