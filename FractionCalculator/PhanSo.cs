@@ -82,6 +82,11 @@ namespace FractionCalculator
             Console.WriteLine("--");
             Console.WriteLine(MauSoDao);
         }
+        public void NghichDao(2)
+        {
+            this.GanTuSo() = this.LayTuSo();
+            this.GanMauSo() = this.LayMauSo();
+        }
         public void RutGon()
         {
             int UocChungLaGi;
@@ -118,9 +123,11 @@ namespace FractionCalculator
             int MauSoTong = this.LayMauSo() * ps.LayMauSo();
             xuatPhanSo(TuSoTong, MauSoTong);
         }
-        public void TruPhanSo()
+        public void TruPhanSo(PhanSo ps)
         {
-
+            int TuSoHieu = this.LayTuSo() * ps.LayMauSo() - ps.LayTuSo() * this.LayMauSo();
+            int MauSoHieu = this.LayMauSo() * ps.LayMauSo();
+            xuatPhanSo(TuSoHieu, MauSoHieu);
         }
         public void NhanPhanSo(PhanSo ps)
         {
@@ -128,12 +135,29 @@ namespace FractionCalculator
             int MauSoTich = this.LayMauSo() * ps.LayMauSo();
             xuatPhanSo(TuSoTich, MauSoTich);
         }
-        public void ChiaPhanSo()
+        public void ChiaPhanSo(PhanSo ps)
         {
+            int TuSoThuong = this.LayTuSo() * ps.LayMauSo();
+            int MauSoThuong = ps.LayTuSo() * this.LayMauSo();
+            xuatPhanSo(TuSoThuong, MauSoThuong);
         }
-        public bool SoSanhPhanSo()
+        public void SoSanhPhanSo(PhanSo ps)
         {
-             return false;
+            if (this.LayTuSo() / this.LayMauSo() > ps.LayTuSo() / ps.LayMauSo())
+            {
+                Console.WriteLine("Phân số thứ nhất lớn hơn Phân số thứ hai");
+            }
+            else
+            {
+                Console.WriteLine("Phân số thứ hai lớn hơn Phân số thừ nhất");
+            }
+        }
+        public void XoaPhanSo(PhanSo ps)
+        {
+            this.GanTuSo(0);
+            this.GanMauSo(0);
+            ps.GanTuSo(0);
+            ps.GanmauSo(0);
         }
     }
 }
