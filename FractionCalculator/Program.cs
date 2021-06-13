@@ -138,14 +138,28 @@ namespace FractionCalculator
                             ps1.QuyDongMau(ps2);
                             break;
                         }
-                    case 6: // Cộng hai phân số
+                    case 6: // Cộng hai phân số - DONE
                         {
                             ps1.CongPhanSo(ps2);
                             break;
                         }
-                    case 8: //Nhân hai phân số
+                    case 7: //Trừ hai phân số - 
+                        {
+                            ps1.TruPhanSo(ps2);
+                            break;
+                        }
+                    case 8: //Nhân hai phân số - 
                         {
                             ps1.NhanPhanSo(ps2);
+                            break;
+                        }
+                    case 9: // Chia hai phân số - 
+                        {
+                            ps1.ChiaPhanSo(ps2);
+                            break;
+                        }
+                    case 10: //Xóa tất cả phân số đã nhập
+                        {
                             break;
                         }
                     default:
