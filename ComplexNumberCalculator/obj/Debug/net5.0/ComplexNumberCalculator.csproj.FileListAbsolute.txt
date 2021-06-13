@@ -1,0 +1,16 @@
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\bin\Debug\net5.0\ComplexNumberCalculator.exe
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\bin\Debug\net5.0\ComplexNumberCalculator.deps.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\bin\Debug\net5.0\ComplexNumberCalculator.runtimeconfig.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\bin\Debug\net5.0\ComplexNumberCalculator.runtimeconfig.dev.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\bin\Debug\net5.0\ComplexNumberCalculator.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\bin\Debug\net5.0\ref\ComplexNumberCalculator.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\bin\Debug\net5.0\ComplexNumberCalculator.pdb
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\obj\Debug\net5.0\ComplexNumberCalculator.csproj.AssemblyReference.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\obj\Debug\net5.0\ComplexNumberCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\obj\Debug\net5.0\ComplexNumberCalculator.AssemblyInfoInputs.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\obj\Debug\net5.0\ComplexNumberCalculator.AssemblyInfo.cs
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\obj\Debug\net5.0\ComplexNumberCalculator.csproj.CoreCompileInputs.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\obj\Debug\net5.0\ComplexNumberCalculator.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\obj\Debug\net5.0\ref\ComplexNumberCalculator.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\obj\Debug\net5.0\ComplexNumberCalculator.pdb
+C:\Users\taqua\source\repos\OPPwithC-Sharp\ComplexNumberCalculator\obj\Debug\net5.0\ComplexNumberCalculator.genruntimeconfig.cache
