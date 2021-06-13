@@ -42,7 +42,6 @@ namespace FractionCalculator
             int VongLap = 1;
             while (VongLap < 100)
             {
-                
                 Console.WriteLine("Máy tình Phân số Đơn Giản ({0})",VongLap);
                 Console.WriteLine("   1. Nhập phân số của bạn"); //DONE
                 Console.WriteLine("   2. Hiện các phân số mà tôi vừa nhập"); //DONE
@@ -173,7 +172,6 @@ namespace FractionCalculator
                         Console.Write("Bạn chọn mã chức năng không tồn tại..!");
                         break;
                 }
-                
                 VongLap++;
             }
             Console.ReadKey();
