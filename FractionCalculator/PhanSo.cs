@@ -63,8 +63,14 @@ namespace FractionCalculator
         {
             return MauSo;
         }
-        public void GanTuSo() {TuSo = int.Parse(Console.ReadLine());}
-        public void GanMauSo(){MauSo = int.Parse(Console.ReadLine());}
+        public void GanTuSo(int a) 
+        {
+            TuSo = a;
+        }
+        public void GanMauSo(int a)
+        {
+            MauSo = a;
+        }
         public void NghichDao()
         {
             int TuSoDao = MauSo;

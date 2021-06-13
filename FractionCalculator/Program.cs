@@ -119,7 +119,7 @@ namespace FractionCalculator
                             ps2.NghichDao();
                             break;
                         }
-                    case 4: // Rút gọn phân số
+                    case 4: // Rút gọn phân số - 
                         {
                             ps1.RutGon();
                             ps2.RutGon();
@@ -127,13 +127,15 @@ namespace FractionCalculator
                         }
                     case 5: // Quy đồng mẩu hai phân số
                         {
-                            int MauSoChung = ps1.LayMauSo() * ps2.LayMauSo();
-                            int TuSo1 = ps1.LayTuSo() * ps2.LayMauSo();
-                            int TuSo2 = ps2.LayTuSo() * ps1.LayMauSo();
                             PhanSo ps1m = new PhanSo();
                             PhanSo ps2m = new PhanSo();
-                            ps1.xuatPhanSo();
-                            ps2.xuatPhanSo();
+                            int MauSoChung = ps1.LayMauSo() * ps2.LayMauSo();
+                            ps2m.GanMauSo(MauSoChung);
+                            ps1m.GanMauSo(MauSoChung);
+                            ps1m.GanTuSo(ps1.LayTuSo() * ps2.LayMauSo());
+                            ps2m.GanTuSo(ps2.LayTuSo() * ps1.LayMauSo());
+                            ps1m.xuatPhanSo();
+                            ps2m.xuatPhanSo();
                             break;
                         }
                     default:
