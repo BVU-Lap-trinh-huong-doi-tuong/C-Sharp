@@ -42,6 +42,7 @@ namespace FractionCalculator
             int VongLap = 1;
             while (VongLap < 100)
             {
+                
                 Console.WriteLine("Máy tình Phân số Đơn Giản ({0})",VongLap);
                 Console.WriteLine("   1. Nhập phân số của bạn"); //DONE
                 Console.WriteLine("   2. Hiện các phân số mà tôi vừa nhập"); //DONE
@@ -119,23 +120,32 @@ namespace FractionCalculator
                             ps2.NghichDao();
                             break;
                         }
-                    case 4: // Rút gọn phân số - 
-                        {
+                    case 4: // Rút gọn phân số - DONE
+                        { 
                             ps1.RutGon();
-                            ps2.RutGon();
+                            if (ps2.LayMauSo() != 0)
+                            {
+                                ps2.RutGon();
+                            }
+                            else
+                            {
+                                Console.WriteLine("Chưa có phân số hai..!");
+                            }
                             break;
                         }
-                    case 5: // Quy đồng mẩu hai phân số
+                    case 5: // Quy đồng mẩu hai phân số - DONE
                         {
-                            PhanSo ps1m = new PhanSo();
-                            PhanSo ps2m = new PhanSo();
-                            int MauSoChung = ps1.LayMauSo() * ps2.LayMauSo();
-                            ps2m.GanMauSo(MauSoChung);
-                            ps1m.GanMauSo(MauSoChung);
-                            ps1m.GanTuSo(ps1.LayTuSo() * ps2.LayMauSo());
-                            ps2m.GanTuSo(ps2.LayTuSo() * ps1.LayMauSo());
-                            ps1m.xuatPhanSo();
-                            ps2m.xuatPhanSo();
+                            ps1.QuyDongMau(ps2);
+                            break;
+                        }
+                    case 6: // Cộng hai phân số
+                        {
+                            ps1.CongPhanSo(ps2);
+                            break;
+                        }
+                    case 8: //Nhân hai phân số
+                        {
+                            ps1.NhanPhanSo(ps2);
                             break;
                         }
                     default:

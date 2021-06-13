@@ -1,0 +1,16 @@
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\bin\Debug\net5.0\Test-Program.exe
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\bin\Debug\net5.0\Test-Program.deps.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\bin\Debug\net5.0\Test-Program.runtimeconfig.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\bin\Debug\net5.0\Test-Program.runtimeconfig.dev.json
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\bin\Debug\net5.0\Test-Program.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\bin\Debug\net5.0\ref\Test-Program.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\bin\Debug\net5.0\Test-Program.pdb
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.csproj.AssemblyReference.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.AssemblyInfoInputs.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.AssemblyInfo.cs
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.csproj.CoreCompileInputs.cache
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\ref\Test-Program.dll
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.pdb
+C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.genruntimeconfig.cache

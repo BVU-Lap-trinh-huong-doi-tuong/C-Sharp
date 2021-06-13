@@ -11,14 +11,16 @@ namespace FractionCalculator
         int TuSo;
         int MauSo;
 
-        public static int UocChungLonNhat(int a, int b)
+        public static int UocChungLonNhat(int a, int b) // Tìm ra ước chung sai rồi
         {
-            if (a % b == 0)
+            if (a%b == 0)
             {
                 return b;
             }
             else
-            return UocChungLonNhat(b, b % a);
+            {
+                return UocChungLonNhat(b, a%b);
+            }
         }
         public void nhapPhanSo()
         {
@@ -97,38 +99,37 @@ namespace FractionCalculator
 
             xuatPhanSo(TuSoSauRutGon, MauSoSauRutGon);
         }
-        public void CongPhanSo()
+        public void QuyDongMau(PhanSo psqdm)
         {
-            int TuSo2;
-            int MauSo2;
-            Console.Write("Nhap tu so cua phan so ban muon cong them: ");
-            TuSo2 = int.Parse(Console.ReadLine());
-            Console.Write("Nhap mau so cua phan so ban muon cong them: ");
-            MauSo2 = int.Parse(Console.ReadLine());
-            //Quy dong mau va cong
-            if ( MauSo == MauSo2)
-            {
-                TuSo = TuSo + TuSo2;
-                MauSo = MauSo + MauSo2;
-            }
-            else
-            {
-                MauSo = MauSo * MauSo2;
-                TuSo = TuSo * MauSo2 + MauSo * TuSo2;
-            }
-            Console.WriteLine("Phan so moi la: " + TuSo + "/" + MauSo);
+            int MauSoChung = this.LayMauSo() * psqdm.LayMauSo();
+            PhanSo ps1m = new PhanSo();
+            PhanSo ps2m = new PhanSo();
+            ps2m.GanMauSo(MauSoChung);
+            ps1m.GanMauSo(MauSoChung);
+            ps1m.GanTuSo(this.LayTuSo() * psqdm.LayMauSo());
+            ps2m.GanTuSo(psqdm.LayTuSo() * this.LayMauSo());
+            ps1m.xuatPhanSo();
+            ps2m.xuatPhanSo();
+        }
+        
+        public void CongPhanSo(PhanSo ps)
+        {
+            int TuSoTong = this.LayTuSo()*ps.LayMauSo() + ps.LayTuSo()*this.LayMauSo();
+            int MauSoTong = this.LayMauSo() * ps.LayMauSo();
+            xuatPhanSo(TuSoTong, MauSoTong);
         }
         public void TruPhanSo()
         {
 
         }
-        public void NhanPhanSo()
+        public void NhanPhanSo(PhanSo ps)
         {
-
+            int TuSoTich = this.LayTuSo() * ps.LayTuSo();
+            int MauSoTich = this.LayMauSo() * ps.LayMauSo();
+            xuatPhanSo(TuSoTich, MauSoTich);
         }
         public void ChiaPhanSo()
         {
-
         }
         public bool SoSanhPhanSo()
         {
