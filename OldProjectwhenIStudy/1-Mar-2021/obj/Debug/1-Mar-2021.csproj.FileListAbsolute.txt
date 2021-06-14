@@ -1,0 +1,7 @@
+D:\TaQuangKhoi-DH20LT\1-Mar-2021\1-Mar-2021\bin\Debug\1-Mar-2021.exe.config
+D:\TaQuangKhoi-DH20LT\1-Mar-2021\1-Mar-2021\bin\Debug\1-Mar-2021.exe
+D:\TaQuangKhoi-DH20LT\1-Mar-2021\1-Mar-2021\bin\Debug\1-Mar-2021.pdb
+D:\TaQuangKhoi-DH20LT\1-Mar-2021\1-Mar-2021\obj\Debug\1-Mar-2021.csprojAssemblyReference.cache
+D:\TaQuangKhoi-DH20LT\1-Mar-2021\1-Mar-2021\obj\Debug\1-Mar-2021.csproj.CoreCompileInputs.cache
+D:\TaQuangKhoi-DH20LT\1-Mar-2021\1-Mar-2021\obj\Debug\1-Mar-2021.exe
+D:\TaQuangKhoi-DH20LT\1-Mar-2021\1-Mar-2021\obj\Debug\1-Mar-2021.pdb

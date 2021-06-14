@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "15-Mar-Bai2-Giai-pt-Bac-2/1.0.0": {
+        "runtime": {
+          "15-Mar-Bai2-Giai-pt-Bac-2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "15-Mar-Bai2-Giai-pt-Bac-2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

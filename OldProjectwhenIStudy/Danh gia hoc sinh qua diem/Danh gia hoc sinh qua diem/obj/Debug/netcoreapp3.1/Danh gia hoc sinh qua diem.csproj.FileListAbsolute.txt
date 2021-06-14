@@ -1,0 +1,13 @@
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\obj\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.csprojAssemblyReference.cache
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\obj\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.AssemblyInfoInputs.cache
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\obj\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.AssemblyInfo.cs
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\obj\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.csproj.CoreCompileInputs.cache
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\bin\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.exe
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\bin\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.deps.json
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\bin\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.runtimeconfig.json
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\bin\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.runtimeconfig.dev.json
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\bin\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.dll
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\bin\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.pdb
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\obj\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.dll
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\obj\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.pdb
+D:\TaQuangKhoi-DH20LT\Danh gia hoc sinh qua diem\Danh gia hoc sinh qua diem\obj\Debug\netcoreapp3.1\Danh gia hoc sinh qua diem.genruntimeconfig.cache
