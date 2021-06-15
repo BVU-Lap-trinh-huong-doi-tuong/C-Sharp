@@ -100,15 +100,20 @@ namespace FractionCalculator
 
             xuatPhanSo(TuSoSauRutGon, MauSoSauRutGon);
         }
-        public void QuyDongMau(PhanSo psqdm)
+        public int mMauSoChung(PhanSo ps)
         {
-            int MauSoChung = this.LayMauSo() * psqdm.LayMauSo();
+            return this.LayMauSo() * ps.LayMauSo();
+        }
+        public void QuyDongMau(PhanSo ps)
+        {
+            int MauSoChung = this.mMauSoChung(ps);
+            
             PhanSo ps1m = new PhanSo();
             PhanSo ps2m = new PhanSo();
             ps2m.GanMauSo(MauSoChung);
             ps1m.GanMauSo(MauSoChung);
-            ps1m.GanTuSo(this.LayTuSo() * psqdm.LayMauSo());
-            ps2m.GanTuSo(psqdm.LayTuSo() * this.LayMauSo());
+            ps1m.GanTuSo(this.LayTuSo() * ps.LayMauSo());
+            ps2m.GanTuSo(ps.LayTuSo() * this.LayMauSo());
             ps1m.xuatPhanSo();
             ps2m.xuatPhanSo();
         }
@@ -116,13 +121,13 @@ namespace FractionCalculator
         public void CongPhanSo(PhanSo ps)
         {
             int TuSoTong = this.LayTuSo()*ps.LayMauSo() + ps.LayTuSo()*this.LayMauSo();
-            int MauSoTong = this.LayMauSo() * ps.LayMauSo();
+            int MauSoTong = this.mMauSoChung(ps);
             xuatPhanSo(TuSoTong, MauSoTong);
         }
         public void TruPhanSo(PhanSo ps)
         {
             int TuSoHieu = this.LayTuSo() * ps.LayMauSo() - ps.LayTuSo() * this.LayMauSo();
-            int MauSoHieu = this.LayMauSo() * ps.LayMauSo();
+            int MauSoHieu = this.mMauSoChung(ps);
             xuatPhanSo(TuSoHieu, MauSoHieu);
         }
         public void NhanPhanSo(PhanSo ps)
