@@ -32,5 +32,9 @@ namespace ComplexNumberCalculator
             Console.WriteLine("Nhập phần ảo của số phức thứ {0} của bạn (b)", ThuTu);
             setThuc(float.Parse(Console.ReadLine()));
         }
+        public void HienSoPhuc(int ThuTu)
+        {
+            Console.WriteLine("Số phức thứ {0} của bạn là {1} + {2}i", ThuTu, PhanThuc, PhanAo);
+        }
     }
 }
