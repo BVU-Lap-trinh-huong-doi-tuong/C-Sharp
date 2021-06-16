@@ -21,10 +21,10 @@ namespace FractionCalculator
         }
         static void DiTiep()
         {
-            Console.WriteLine("Bạn có muốn tiếp tục dùng chức năng khác? ( nhấn 1 và Enter để tiếp tục)");
-            bool TiepTuc = YesNo();
+            Console.WriteLine("Bạn có muốn tiếp tục dùng chức năng khác? (Enter để tiếp tục)");
+            // bool TiepTuc = YesNo();
             
-            if (TiepTuc == true)
+            if (Console.ReadKey().Key == ConsoleKey.Enter)
             {
                 Console.Clear();
             }
@@ -35,6 +35,7 @@ namespace FractionCalculator
             int HienPhanSo = 1;
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
+
             Console.Title = "Phần mềm Tính toán Phân số";
 
             PhanSo ps1 = new PhanSo();
@@ -87,8 +88,8 @@ namespace FractionCalculator
                             else
                             {
                                 ps1.nhapPhanSo();
-                                Console.Write("Bạn có muốn nhập phân số thứ hai không? (Phím 1 và Enter để đồng ý) --> ");
-                                if (YesNo() == true)
+                                Console.Write("Bạn có muốn nhập phân số thứ hai không? (Enter để đồng ý) --> ");
+                                if (Console.ReadKey().Key == ConsoleKey.Enter)
                                 {
                                     ps2.nhapPhanSo();
                                 }
