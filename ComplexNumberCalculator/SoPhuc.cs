@@ -9,5 +9,22 @@ namespace ComplexNumberCalculator
     class SoPhuc
     {
         float PhanThuc, PhanAo;
+        public float getThuc()
+        {
+            return PhanThuc;
+        }
+        public float getAo()
+        {
+            return PhanAo;
+        }
+        public void setThuc(float a)
+        {
+            PhanThuc = a;
+        }
+        public void setAo(float a)
+        {
+            PhanAo = a;
+        }
+
     }
 }
