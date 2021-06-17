@@ -1,0 +1,7 @@
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\SinhVienDH20LT\obj\Debug\SinhVienDH20LT.csproj.AssemblyReference.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\SinhVienDH20LT\obj\Debug\SinhVienDH20LT.csproj.CoreCompileInputs.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\SinhVienDH20LT\bin\Debug\SinhVienDH20LT.exe.config
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\SinhVienDH20LT\bin\Debug\SinhVienDH20LT.exe
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\SinhVienDH20LT\bin\Debug\SinhVienDH20LT.pdb
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\SinhVienDH20LT\obj\Debug\SinhVienDH20LT.exe
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\SinhVienDH20LT\obj\Debug\SinhVienDH20LT.pdb
