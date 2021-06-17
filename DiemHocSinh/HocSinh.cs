@@ -4,18 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiemHocSinh
+namespace DiemSinhVien
 {
-    class HocSinh
+    class SinhVien
     {
         string HoTen;
         float DiemVan, DiemToan;
-
-        public HocSinh() // Hàm khởi tạo
+        public static string Truong = "BVU";
+        public SinhVien() // Hàm khởi tạo mặc định
         {
             HoTen = "NoName";
             DiemVan = 0;
             DiemToan= 0;
+        }
+        public SinhVien(string HoTen)
+        {
+            this.HoTen = HoTen;
+        }
+        public SinhVien(float DiemVan)
+        {
+            this.DiemVan = DiemVan;
+        }
+        public SinhVien(float DiemToan, int a = 1)
+        {
+            this.DiemToan = DiemToan;
         }
         public void Nhap()
         {
@@ -31,6 +43,7 @@ namespace DiemHocSinh
             Console.Write("Tên: " + HoTen);
             Console.Write("Điểm Văn: " + DiemVan);
             Console.Write("Điểm Toán: " + DiemToan);
+            Console.Write("Trường: " + Truong);
         }
         public string LayTen()
         {
@@ -53,17 +66,17 @@ namespace DiemHocSinh
             float diemTB = (DiemVan + DiemToan) / 2;
             return diemTB; // quyết định kiểu dữ liệu của phương thức..
         }
-        public void XepLoai(float diemgiua)
+        public void XepLoai()
         {
-            if (diemgiua >= 8)
+            if (DiemTrungBinh() >= 8)
             {
                 Console.Write("Sinh viên xếp loại: Giỏi");
             }
-            else if (diemgiua >= 7)
+            else if (DiemTrungBinh() >= 7)
             {
                 Console.Write("Sinh viên xếp loại: Khá");
             }
-            else if (diemgiua >= 5)
+            else if (DiemTrungBinh() >= 5)
             {
                 Console.Write("Sinh viên xếp loại: Trung Bình");
             }

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\DiemHocSinh\\DiemHocSinh.csproj": {}
+    "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\DiemHocSinh\\DiemHocSinh.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\DiemHocSinh\\DiemHocSinh.csproj": {
+    "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\DiemHocSinh\\DiemHocSinh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\DiemHocSinh\\DiemHocSinh.csproj",
+        "projectUniqueName": "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\DiemHocSinh\\DiemHocSinh.csproj",
         "projectName": "DiemHocSinh",
-        "projectPath": "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\DiemHocSinh\\DiemHocSinh.csproj",
+        "projectPath": "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\DiemHocSinh\\DiemHocSinh.csproj",
         "packagesPath": "C:\\Users\\taqua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\DiemHocSinh\\obj\\",
+        "outputPath": "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\DiemHocSinh\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\taqua\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

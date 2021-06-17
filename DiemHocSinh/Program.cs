@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace DiemHocSinh
+namespace DiemSinhVien
 {
     class Program
     {
@@ -10,15 +10,13 @@ namespace DiemHocSinh
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
             Console.WriteLine("Phần Mềm");
-            HocSinh hs1 = new HocSinh();
-            HocSinh hs2 = new HocSinh();
+            SinhVien hs1 = new SinhVien();
+            SinhVien hs2 = new SinhVien();
             hs1.Nhap();
             hs2.Nhap();
-            float hs1dtb;
-            hs1dtb = hs1.DiemTrungBinh();
-            Console.WriteLine("Điểm Trung Bình của học sinh: " + hs1dtb);
+            Console.WriteLine("Điểm Trung Bình của học sinh: " + hs1);
             
-            hs1.XepLoai(hs1dtb);
+            hs1.XepLoai();
             // hs2.Nhap();
         }
     }
