@@ -6,9 +6,7 @@ namespace Program_tong_hop
     {
         static int XuatTong(int x, int y)
         {
-            int SUM;
-            SUM = x + y;
-            return SUM;
+            return x + y;
         }
         static void PTBacNhat(double a, double b)
         {
@@ -364,7 +362,7 @@ namespace Program_tong_hop
                             Console.WriteLine("2. Tinh phan tu thu n cua day Fibonaci");
                             Console.WriteLine("CT nao?");
                             double a, DQ;
-                            NhapSoThuc(out a);
+                            Program_tong_hop.Program.NhapSoThuc(out a);
                             DQ = a;
                             switch (DQ)
                             {
