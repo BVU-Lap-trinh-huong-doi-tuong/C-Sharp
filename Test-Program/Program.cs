@@ -2,14 +2,29 @@
 
 namespace Test_Program
 {
+    static class MyMath
+    {
+        
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            int a = 6;
-            int b = 14;
-            Console.WriteLine(a%b);
+            public static double pTamGiacThuong(double a, double b, double c) // DONE Chu Vi = P - perimeter
+        {
+            return (a + b + c);
+        }
+        public static double sTamGiacThuong(double a, double b, double c) // Diện tích
+        {
+            // phải tìm h (chiều cao)
+            // hoặc dùng công thức Heron
+
+            double p = pTamGiacThuong(a, b, c) / 2; // p là nữa chu vi
+            double trongCan = p * (p - a) * (p - b) * (p - c);
+            return Math.Sqrt(trongCan);
+        }
+        Console.WriteLine("S la:" + sTamGiacThuong(5.0, 3.0, 2.0));
+        Console.ReadKey();
         }
     }
 }

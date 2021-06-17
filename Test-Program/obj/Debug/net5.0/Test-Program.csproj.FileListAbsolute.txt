@@ -14,3 +14,8 @@ C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Pr
 C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\ref\Test-Program.dll
 C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.pdb
 C:\Users\taqua\source\repos\OPPwithC-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.genruntimeconfig.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.csproj.AssemblyReference.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.AssemblyInfoInputs.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.AssemblyInfo.cs
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\Test-Program\obj\Debug\net5.0\Test-Program.csproj.CoreCompileInputs.cache

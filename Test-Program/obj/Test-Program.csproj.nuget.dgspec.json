@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\Test-Program\\Test-Program.csproj": {}
+    "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\Test-Program\\Test-Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\Test-Program\\Test-Program.csproj": {
+    "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\Test-Program\\Test-Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\Test-Program\\Test-Program.csproj",
+        "projectUniqueName": "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\Test-Program\\Test-Program.csproj",
         "projectName": "Test-Program",
-        "projectPath": "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\Test-Program\\Test-Program.csproj",
+        "projectPath": "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\Test-Program\\Test-Program.csproj",
         "packagesPath": "C:\\Users\\taqua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taqua\\source\\repos\\OPPwithC-Sharp\\Test-Program\\obj\\",
+        "outputPath": "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\Test-Program\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
