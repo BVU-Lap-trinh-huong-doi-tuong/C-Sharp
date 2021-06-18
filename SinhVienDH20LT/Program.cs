@@ -55,9 +55,9 @@ namespace SinhVienDH20LT
             //TaQuangKhoi.Xuat();
 
             //Console.WriteLine("S la:" + sTamGiacThuong(5.0, 3.0, 2.0));
-            Console.WriteLine(SoMu(2, 3));
-            Console.WriteLine(Tich(2, 3));
-            Console.ReadKey();
+            //Console.WriteLine(SoMu(2, 3));
+            //Console.WriteLine(Tich(2, 3));
+            //Console.ReadKey();
         }
     }
 }
