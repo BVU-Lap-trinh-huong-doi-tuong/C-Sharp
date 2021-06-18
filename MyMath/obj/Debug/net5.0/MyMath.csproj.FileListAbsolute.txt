@@ -1,0 +1,16 @@
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\obj\Debug\net5.0\MyMath.csproj.AssemblyReference.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\obj\Debug\net5.0\MyMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\obj\Debug\net5.0\MyMath.AssemblyInfoInputs.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\obj\Debug\net5.0\MyMath.AssemblyInfo.cs
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\obj\Debug\net5.0\MyMath.csproj.CoreCompileInputs.cache
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\bin\Debug\net5.0\MyMath.exe
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\bin\Debug\net5.0\MyMath.deps.json
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\bin\Debug\net5.0\MyMath.runtimeconfig.json
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\bin\Debug\net5.0\MyMath.runtimeconfig.dev.json
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\bin\Debug\net5.0\MyMath.dll
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\bin\Debug\net5.0\ref\MyMath.dll
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\bin\Debug\net5.0\MyMath.pdb
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\obj\Debug\net5.0\MyMath.dll
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\obj\Debug\net5.0\ref\MyMath.dll
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\obj\Debug\net5.0\MyMath.pdb
+C:\Users\taqua\OneDrive\Programming Project\C-Sharp\MyMath\obj\Debug\net5.0\MyMath.genruntimeconfig.cache

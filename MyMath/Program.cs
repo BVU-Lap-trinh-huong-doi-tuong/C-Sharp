@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace MyMath
 {
     class Program
@@ -7,6 +8,8 @@ namespace MyMath
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Kết quả: " + basicCalculus.CanBacHai(4));
+            Console.ReadKey();
         }
     }
 }
