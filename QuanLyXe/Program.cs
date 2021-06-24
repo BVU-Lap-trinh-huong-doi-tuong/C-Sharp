@@ -7,6 +7,10 @@ namespace QuanLyXe
         static void Main(string[] args)
         {
             Console.WriteLine("Chon chức năng bạn muốn sử dụng..!");
+            Console.WriteLine("1. Tạo đối tượng xe");
+            Console.WriteLine("2. Tạo đối tượng XeOto");
+            Console.WriteLine("3. Tạo đối tượng XeTai");
+            Console.WriteLine("4. Tạo đối tượng XeMay");
             int ChucNang = int.Parse(Console.ReadLine());
             switch(ChucNang)
             {
