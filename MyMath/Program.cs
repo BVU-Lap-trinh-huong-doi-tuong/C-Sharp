@@ -1,5 +1,5 @@
 ﻿using System;
-
+using MyMath;
 
 namespace MyMath
 {

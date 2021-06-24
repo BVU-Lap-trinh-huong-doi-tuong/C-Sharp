@@ -7,10 +7,31 @@ using System.Threading.Tasks;
 namespace MyMath
 {
     static class basicCalculus
-    { // gồm Cộng Trừ Nhan Chia, Lũy Thừa, Căn, Lam Tron
-        public static float Plus(float a, float b)
+    // Đại số
+        // Cấp số nhân, Cấp số cộng
+        // gồm .Cộng, .Trừ, .Nhân, .Chia, .Lũy Thừa, .Căn, .Làm Tròn, Nguyên Hàm, Tích Phân, Đạo Hàm, 
+        // Hoán vị, Chỉnh hợp, Tổ Hợp
+        // Giá Trị Tuyệt Đối, 
+    // Hình học
+        // Tam giác (thường, vuông, cân, đều)
+        // Từ giác (Chữ nhật, vuông, thang, bình hành, thoi..)
+
+    { 
+        public static float Cong(float a, float b)
         {
             return a + b;
+        }
+        public static float Tru(float a, float b)
+        {
+            return a - b;
+        }
+        public static float Nhan(float a, float b)
+        {
+            return a / b;
+        }
+        public static int Chia(int a, int b)
+        {
+            return a * b;
         }
         public static int LuyThua(int a, int b)
         {
@@ -22,10 +43,6 @@ namespace MyMath
                 i++;
             }
             return ketqua;
-        }
-        public static int Tich(int a, int b)
-        {
-            return a * b;
         }
         public static double GiaTriTuyetDoi(double a)
         {
@@ -77,6 +94,10 @@ namespace MyMath
         {
             return Pp;
         }
+        public static void CapSoNhan()
+        {
+
+        }
         // Hình Tròn
 
         public static double sCircle(double r) // DONE Diện Tích | r là bán kính
@@ -127,7 +148,6 @@ namespace MyMath
             return Math.Sqrt(trongCan);
         }
 
-            // Sin Cos trong Tam giác vuông
-
+        // Sin Cos trong Tam giác vuông
         }
     }
