@@ -14,17 +14,18 @@ namespace StaffManager
         public Customer() : base()
         {
             LoaiKhachHang = "";
-            MaKhachHang = 0;
+            MaKhachHang = "";
         }
-        public Customer(string LoaiKhacHang, string MaKhachHang)
-            : base (string Ten, int Tuoi, string GioiTinh, string NgaySinh, int PhanLoai)
+        public Customer(string Ten, int Tuoi, string GioiTinh, string NgaySinh, int PhanLoai,
+            string LoaiKhacHang, string MaKhachHang)
+            : base (Ten, Tuoi, GioiTinh, NgaySinh, PhanLoai)
         {
             this.LoaiKhachHang = LoaiKhachHang;
             this.MaKhachHang = MaKhachHang;
         }
-        public void setMaKH()
+        public void setMaKH(string MaKhachHang)
         {
-            this.MaKhachHang;
+            this.MaKhachHang = MaKhachHang;
         }
         public string getMaKH()
         {
@@ -44,15 +45,15 @@ namespace StaffManager
             Console.WriteLine("------------------------------");
             base.NhapThongTin();
             Console.Write("Loai Khach Hang:  ");
-            KhachHang = (Console.ReadLine());
+            LoaiKhachHang = (Console.ReadLine());
             Console.Write("Ma Khach Hang:  ");
-            MaKhachHang = int.Parse(Console.ReadLine());
+            MaKhachHang = Console.ReadLine();
         }
 
         public override void XuatThongTin()
         {
             base.XuatThongTin();
-            Console.WriteLine("Loai Khach Hang: " + KhachHang);
+            Console.WriteLine("Loai Khach Hang: " + LoaiKhachHang);
             Console.WriteLine("Ma Khach Hang: " + MaKhachHang);
             Console.WriteLine("------------------------------");
         }
