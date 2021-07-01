@@ -13,6 +13,7 @@ namespace StaffManager
         protected int Tuoi;
         protected string GioiTinh;
         protected string NgaySinh;
+        protected int PhanLoai; // Khach = 1 ; Staff = 0;
 
         // Phương thức
         public void setTen(string Ten)
@@ -47,19 +48,29 @@ namespace StaffManager
         {
             return NgaySinh;
         }
+        public void setPhanLoai(int PhanLoai)
+        {
+            this.PhanLoai = PhanLoai;
+        }
+        public int getPhanLoai()
+        {
+            return PhanLoai;
+        }
         public Human() // Phương thức khởi tạo
         {
             Ten = "";
             Tuoi = 0;
             GioiTinh = "";
             NgaySinh = "";
+            PhanLoai = 1;
         }
-       public Human(string Ten, int Tuoi, string GioiTinh, string NgaySinh) // Phương thức khởi tạo
+       public Human(string Ten, int Tuoi, string GioiTinh, string NgaySinh, int PhanLoai) // Phương thức khởi tạo
         { 
             this.Ten = Ten;
             this.Tuoi = Tuoi;
             this.GioiTinh = GioiTinh;
             this.NgaySinh = NgaySinh;
+            this.PhanLoai = PhanLoai;
         }
         public virtual void NhapThongTin()
         {
@@ -72,14 +83,24 @@ namespace StaffManager
             GioiTinh = (Console.ReadLine());
             Console.WriteLine("Ngay sinh la: ");
             NgaySinh = Console.ReadLine();
+            Console.WriteLine("Phan loai la: ");
+            PhanLoai = int.Parse(Console.ReadLine());
         }
         public virtual void XuatThongTin()
         {
             Console.WriteLine("--------------------------------");
             Console.WriteLine("Ten la: " + Ten);
             Console.WriteLine("Tuoi la: " + Tuoi);
-            Console.WriteLine("Gioi tinh la: " + GioiTinh);
+            if(GioiTinh == "Nam" || GioiTinh == "Nu")
+            {
+                Console.WriteLine("Gioi tinh la: " + GioiTinh);
+            }
+            else
+            {
+                Console.WriteLine("Khong co gioi tinh nay");
+            }
             Console.WriteLine("Ngay sinh la: " + NgaySinh);
+            Console.WriteLine("Phan loai la: " + PhanLoai);
         }
     }
 }
