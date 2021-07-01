@@ -32,7 +32,7 @@ namespace QuanLyXe
             this.HangSanXuat = HangSanXuat;
             this.SoBanhXe = SoBanhXe;
         }
-        public void NhapThongTin()
+        public virtual void NhapThongTin()
         {
             Console.WriteLine("SoXe la: ");
             SoXe = Console.ReadLine();
@@ -45,7 +45,7 @@ namespace QuanLyXe
             Console.WriteLine("SoBanhXe la: ");
             SoBanhXe = Console.ReadLine();
         }
-        public void XuatThongTin()
+        public virtual void XuatThongTin()
         {
             Console.WriteLine("SoXe la: " + SoXe);
             Console.WriteLine("MauXe la: " + MauXe);

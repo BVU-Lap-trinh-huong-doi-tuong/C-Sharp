@@ -20,13 +20,13 @@ namespace QuanLyXe
         {
             this.TaiTrong = TaiTrong;
         }
-        public void NhapThongTin()
+        public override void NhapThongTin()
         {
             base.NhapThongTin();
             Console.WriteLine("TaiTrong la: ");
             TaiTrong = int.Parse(Console.ReadLine());
         }
-        public void XuatThongTin()
+        public override void XuatThongTin()
         {
             base.XuatThongTin();
             Console.WriteLine("TaiTrong la: " + TaiTrong);

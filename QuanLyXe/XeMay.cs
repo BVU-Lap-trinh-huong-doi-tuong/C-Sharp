@@ -23,13 +23,13 @@ namespace QuanLyXe
             this.PhanKhoi = PhanKhoi;
         }
         // Methods
-        public void NhapThongTin()
+        public override void NhapThongTin()
         {
             base.NhapThongTin();
             Console.WriteLine("PhanKhoi la: ");
             PhanKhoi = int.Parse(Console.ReadLine());
         }
-        public void XuatThongTin()
+        public override void XuatThongTin()
         {
             base.XuatThongTin();
             Console.WriteLine("PhanKhoi la: " + PhanKhoi);

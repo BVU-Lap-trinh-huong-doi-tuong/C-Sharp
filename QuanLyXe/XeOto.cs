@@ -24,7 +24,7 @@ namespace QuanLyXe
             this.SoChoNgoi = SoChoNgoi;
             this.LoaiXe = LoaiXe;
         }
-        public void NhapThongTin()
+        public override void NhapThongTin()
         {
             base.NhapThongTin();
             Console.WriteLine("SoChoNgoi la: ");
@@ -32,7 +32,7 @@ namespace QuanLyXe
             Console.WriteLine("LoaiXe la: ");
             LoaiXe = Console.ReadLine();
         }
-        public void XuatThongTin()
+        public override void XuatThongTin()
         {
             base.XuatThongTin();
             Console.WriteLine("SoChoNgoi la: " + SoChoNgoi);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\QuanLyXe\\QuanLyXe.csproj": {}
+    "C:\\Users\\taqua\\OneDrive\\Project\\Programming Project\\C-Sharp\\QuanLyXe\\QuanLyXe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\QuanLyXe\\QuanLyXe.csproj": {
+    "C:\\Users\\taqua\\OneDrive\\Project\\Programming Project\\C-Sharp\\QuanLyXe\\QuanLyXe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\QuanLyXe\\QuanLyXe.csproj",
+        "projectUniqueName": "C:\\Users\\taqua\\OneDrive\\Project\\Programming Project\\C-Sharp\\QuanLyXe\\QuanLyXe.csproj",
         "projectName": "QuanLyXe",
-        "projectPath": "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\QuanLyXe\\QuanLyXe.csproj",
+        "projectPath": "C:\\Users\\taqua\\OneDrive\\Project\\Programming Project\\C-Sharp\\QuanLyXe\\QuanLyXe.csproj",
         "packagesPath": "C:\\Users\\taqua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taqua\\OneDrive\\Programming Project\\C-Sharp\\QuanLyXe\\obj\\",
+        "outputPath": "C:\\Users\\taqua\\OneDrive\\Project\\Programming Project\\C-Sharp\\QuanLyXe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,0 +1,270 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace StaffManager
+{
+    class Staff:Human
+    {
+        string MaNV;
+        string BangCap;
+        
+        //Method
+        public void setMaNV(string MaNV)
+        {
+            this.MaNV = MaNV;
+        }
+        public string getMaNV()
+        {
+            return MaNV;
+        }
+        public void setBangCap(string BangCap)
+        {
+            this.BangCap = BangCap;
+        }
+        public string getBangCap()
+        {
+            return BangCap;
+        }
+        public override int getLoaiDoiTuong()
+        {
+            return LoaiDoiTuong;
+        }
+
+        public Staff() : base()
+        {
+            MaNV = "";
+            BangCap = "";
+            LoaiDoiTuong = 2;
+        }
+        public Staff(string Ten, int Tuoi, string GioiTinh, string NgaySinh,
+            string MaNV, string BangCap) 
+            : base(Ten, Tuoi, GioiTinh, NgaySinh)          
+        {
+            this.MaNV = MaNV;
+            this.BangCap = BangCap;
+            LoaiDoiTuong = 2;
+        }
+
+        public override void NhapThongTin()
+        {
+            base.NhapThongTin();
+            Console.Write("Nhap ma nhan vien: ");
+            MaNV = Console.ReadLine();
+            Console.Write("Bang Cap: ");
+            BangCap = Console.ReadLine();
+        }
+        public override void XuatThongTin()
+        {
+            base.XuatThongTin();
+            Console.WriteLine("Ma so nhan vien: " + MaNV);
+            Console.WriteLine("Bang Cap: "  + BangCap);
+        }
+    }
+    class Customer:Human
+    {
+        string LoaiKhachHang; 
+        string MaKhachHang; //Mã khách hàng
+
+        public Customer() : base()
+        {
+            LoaiKhachHang = "";
+            MaKhachHang = "";
+            LoaiDoiTuong = 1;
+        }
+        public Customer(string Ten, int Tuoi, string GioiTinh, string NgaySinh,
+            string LoaiKhachHang, string MaKhachHang)
+            : base (Ten, Tuoi, GioiTinh, NgaySinh)
+        {
+            this.LoaiKhachHang = LoaiKhachHang;
+            this.MaKhachHang = MaKhachHang;
+            LoaiDoiTuong = 1;
+        }
+        public override int getLoaiDoiTuong()
+        {
+            return LoaiDoiTuong;
+        }
+        public void setMaKH(string MaKhachHang)
+        {
+            this.MaKhachHang = MaKhachHang;
+        }
+        public string getMaKH()
+        {
+            return MaKhachHang;
+        }
+        public void setLoaiKH(string LoaiKhachHang)
+        {
+            this.LoaiKhachHang = LoaiKhachHang;
+        }
+        public string getLoaiKH()
+        {
+            return LoaiKhachHang;
+        }
+
+        public override void NhapThongTin()
+        {
+            Console.WriteLine("------------------------------");
+            base.NhapThongTin();
+            Console.Write("Loai Khach Hang:  ");
+            LoaiKhachHang = Console.ReadLine();
+            Console.Write("Ma Khach Hang:  ");
+            MaKhachHang = Console.ReadLine();
+        }
+
+        public override void XuatThongTin()
+        {
+            base.XuatThongTin();
+            Console.WriteLine("Loai Khach Hang: " + LoaiKhachHang);
+            Console.WriteLine("Ma Khach Hang: " + MaKhachHang);
+            Console.WriteLine("------------------------------");
+        }
+    class Human
+    {
+        // Thuộc tính
+        protected string Ten;
+        protected int Tuoi;
+        protected string GioiTinh;
+        protected string NgaySinh;
+        protected int LoaiDoiTuong; // Khach = 1 ; Staff = 2;
+
+        // Phương thức
+        public virtual int getLoaiDoiTuong()
+        {
+            return LoaiDoiTuong;
+        }
+        
+        
+        public Human() // Phương thức khởi tạo
+        {
+            Ten = "";
+            Tuoi = 0;
+            GioiTinh = "";
+            NgaySinh = "";
+        }
+       public Human(string Ten, int Tuoi, string GioiTinh, string NgaySinh) // Phương thức khởi tạo
+        { 
+            this.Ten = Ten;
+            this.Tuoi = Tuoi;
+            this.GioiTinh = GioiTinh;
+            this.NgaySinh = NgaySinh;
+        }
+        public virtual void NhapThongTin()
+        {
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("Ten la: ");
+            Ten = Console.ReadLine();
+            Console.WriteLine("Tuoi la: ");
+            Tuoi = int.Parse(Console.ReadLine());
+            Console.WriteLine("Gioi tinh la: ");
+            GioiTinh = (Console.ReadLine());
+            Console.WriteLine("Ngay sinh la: ");
+            NgaySinh = Console.ReadLine();
+            
+        }
+        public virtual void XuatThongTin()
+        {
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("Ten la: " + Ten);
+            Console.WriteLine("Tuoi la: " + Tuoi);
+            if(GioiTinh == "Nam" || GioiTinh == "Nu")
+            {
+                Console.WriteLine("Gioi tinh la: " + GioiTinh);
+            }
+            else
+            {
+                Console.WriteLine("Khong co gioi tinh nay");
+            }
+            Console.WriteLine("Ngay sinh la: " + NgaySinh);
+        }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 0;
+            
+            int iHuman = 1;
+            Human[] listHuman = new Human[50];
+            Console.WriteLine("1. Thêm nhân viên");
+            Console.WriteLine("2. Thêm khách hàng");
+            Console.WriteLine("3. Hiện tất cả danh sách nhân viên");
+            Console.WriteLine("4. Hiện tất cả danh sách khách hàng ");
+            Console.WriteLine("5. Hiện tất cả danh sách");
+            Console.WriteLine("6. Thống kê khách hàng");
+            Console.WriteLine("7. Thoát");
+            Console.Write("Nhập chức năng bạn muốn sự dụng: ");
+
+            while (i < 50)
+            {
+                int ThuTu = 1;
+                int ChucNang = int.Parse(Console.ReadLine());
+                switch (ChucNang)
+                {
+                    case 1: // Thêm nhân viên
+                        {
+                            listHuman[iHuman] = new Staff();
+                            listHuman[iHuman].NhapThongTin();
+                            iHuman++;
+                            break;
+                        }
+                    case 2: // Thêm khách hàng
+                        {
+                            listHuman[iHuman] = new Customer();
+                            listHuman[iHuman].NhapThongTin();
+                            iHuman++;
+                            break;
+                        }
+                    case 3: // Hiện Staff
+                        {
+                            for (ThuTu = 1; ThuTu < iHuman; ThuTu++)
+
+                            {
+                                if (listHuman[ThuTu].getLoaiDoiTuong() == 2)
+                                {
+                                    listHuman[ThuTu].XuatThongTin();
+                                }
+                            }
+                            break;
+                        }
+                    case 4: //Hiện Cus
+                        {
+                            for (ThuTu = 1; ThuTu < iHuman; ThuTu++)
+
+                            {   if (listHuman[ThuTu].getLoaiDoiTuong() == 1)
+                                {
+                                    listHuman[ThuTu].XuatThongTin();
+                                }
+                            }
+                            break;
+                        }
+                    case 5: //Hiện tất cả
+                        {
+                            while (ThuTu < iHuman)
+                            {
+                                listHuman[ThuTu].XuatThongTin();
+                                ThuTu++;
+                            }
+                            break;
+                        }
+                    case 6: //Thống kê khách hàng
+                        {
+                            int TongKhach = 0;
+                            while (ThuTu < iHuman && listHuman[ThuTu].getLoaiDoiTuong() == 1)
+                            {
+                                TongKhach++;
+                            }
+                            Console.WriteLine(TongKhach);
+                            break;
+                        }
+                    default:
+                        break;
+                }
+                i++;
+                Console.Write("------------------------------");
+            }
+            Console.ReadKey();
+        }
+    }
+}

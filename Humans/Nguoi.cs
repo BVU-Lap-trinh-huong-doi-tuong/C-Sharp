@@ -12,7 +12,6 @@ namespace Humans
         protected string Ten;
         protected int Tuoi;
         protected bool GioiTinh;
-        protected bool GioiTinh;
         protected string DiaChi;
         public Nguoi()
         {
