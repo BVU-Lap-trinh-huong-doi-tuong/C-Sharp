@@ -12,6 +12,16 @@ namespace QuanLyCuaHangVangBac
 		protected string tenSP;
 		protected string hangSX;
 		protected int donGia; // Đơn Giá
+		protected int loaiSP;
+
+		public int getLoaiSP()
+        {
+			return loaiSP;
+        }
+		public void setLoaiSP(int LoaiSP)
+        {
+			this.loaiSP = LoaiSP;
+        }
 
 		public VangBac()
 		{//Ham Khoi Tao
@@ -27,35 +37,35 @@ namespace QuanLyCuaHangVangBac
 			this.hangSX = hangSX;
 			this.donGia = donGia;
 		}
-		public virtual void setMaSP(string maSP)
+		public void setMaSP(string maSP)
 		{
 			this.maSP = maSP;
 		}
-		public virtual void setTenSP(string tenSP)
+		public void setTenSP(string tenSP)
 		{
 			this.tenSP = tenSP;
 		}
-		public virtual void setHangSX(string hangSX)
+		public void setHangSX(string hangSX)
 		{
 			this.hangSX = hangSX;
 		}
-		public virtual void setDonGia(int donGia)
+		public void setDonGia(int donGia)
 		{
 			this.donGia = donGia;
 		}
-		public virtual string getMasp()
+		public string getMasp()
 		{
 			return maSP;
 		}
-		public virtual string getTensp()
+		public string getTensp()
 		{
 			return tenSP;
 		}
-		public virtual string getHangsx()
+		public string getHangsx()
 		{
 			return hangSX;
 		}
-		public virtual int getDongia()
+		public int getDongia()
 		{
 			return donGia;
 		}
@@ -67,16 +77,16 @@ namespace QuanLyCuaHangVangBac
 			tenSP = Console.ReadLine();
 			Console.Write("Nhap hang san xuat: ");
 			hangSX = Console.ReadLine();
-			Console.Write("Nhap dong gia: ");
+			Console.Write("Nhap don gia: ");
 			donGia = int.Parse(Console.ReadLine());
 		}
 		public virtual void XuatThongTin()
 		{
 			Console.WriteLine("--------------------------------");
-			Console.WriteLine("Nhap ma san pham: " + maSP);
-			Console.WriteLine("Nhap ten san pham: " + tenSP);
-			Console.WriteLine("Nhap hang san xuat: " + hangSX);
-			Console.WriteLine("Nhap don gia: " + donGia);
+			Console.WriteLine("Ma san pham la: " + maSP);
+			Console.WriteLine("Ten san pham la: " + tenSP);
+			Console.WriteLine("Hang san xuat la: " + hangSX);
+			Console.WriteLine("Don gia la: " + donGia);
 		}
 	}
 }	
