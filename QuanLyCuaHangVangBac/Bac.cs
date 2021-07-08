@@ -30,7 +30,7 @@ namespace QuanLyCuaHangVangBac
 		{
 			this.kieuBac = kieuBac;
 		}
-		public void setLoai(string loaiBac)
+		public void setLoaiBac(string loaiBac)
 		{
 			this.loaiBac = loaiBac;
 		}
@@ -42,7 +42,7 @@ namespace QuanLyCuaHangVangBac
 		{
 			return kieuBac;
 		}
-		public string getLoai()
+		public string getLoaiBac()
 		{
 			return loaiBac;
 		}
@@ -71,11 +71,11 @@ namespace QuanLyCuaHangVangBac
 		}
 		public int XetGiamGia()
 		{
-			if (this.getKieuBac() == "Day chuyen" && this.getLoai() == "8k")
+			if (this.getKieuBac() == "Day chuyen" && this.getLoaiBac() == "8k")
 			{
 				return 4;
 			}
-			else if (this.getKieuBac() == "Lac" && this.getLoai() == "10k")
+			else if (this.getKieuBac() == "Lac" && this.getLoaiBac() == "10k")
 			{
 				return 2;
 			}
