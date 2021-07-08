@@ -27,39 +27,39 @@ namespace QuanLyCuaHangVangBac
 			this.hangSX = hangSX;
 			this.donGia = donGia;
 		}
-		public void setMaSP(string maSP)
+		public virtual void setMaSP(string maSP)
 		{
 			this.maSP = maSP;
 		}
-		public void setTenSP(string tenSP)
+		public virtual void setTenSP(string tenSP)
 		{
 			this.tenSP = tenSP;
 		}
-		public void setHangSX(string hangSX)
+		public virtual void setHangSX(string hangSX)
 		{
 			this.hangSX = hangSX;
 		}
-		public void setDonGia(int donGia)
+		public virtual void setDonGia(int donGia)
 		{
 			this.donGia = donGia;
 		}
-		public string getMasp()
+		public virtual string getMasp()
 		{
 			return maSP;
 		}
-		public string getTensp()
+		public virtual string getTensp()
 		{
 			return tenSP;
 		}
-		public string getHangsx()
+		public virtual string getHangsx()
 		{
 			return hangSX;
 		}
-		public int getDongia()
+		public virtual int getDongia()
 		{
 			return donGia;
 		}
-		public void NhapThongTin()
+		public virtual void NhapThongTin()
 		{
 			Console.Write("Nhap ma san pham: ");
 			maSP = Console.ReadLine();
@@ -70,7 +70,7 @@ namespace QuanLyCuaHangVangBac
 			Console.Write("Nhap dong gia: ");
 			donGia = int.Parse(Console.ReadLine());
 		}
-		public void XuatThongTin()
+		public virtual void XuatThongTin()
 		{
 			Console.WriteLine("--------------------------------");
 			Console.WriteLine("Nhap ma san pham: " + maSP);

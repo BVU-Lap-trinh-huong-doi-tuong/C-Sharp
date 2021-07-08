@@ -7,9 +7,9 @@ namespace QuanLyCuaHangVangBac
         static void Main(string[] args)
         {
             //Menu
-            VangBac vangbac1 = new VangBac();
-            vangbac1.NhapThongTin();
-            vangbac1.XuatThongTin();
+            Vang vang1 = new Vang();
+            vang1.NhapThongTin();
+            vang1.XuatThongTin();
         }
     }
 }

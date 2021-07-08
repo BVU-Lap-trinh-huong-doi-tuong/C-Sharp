@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace QuanLyCuaHangVangBac
 {
-	class Vang : VangBac
-	{
-		int tuoiVang;
-		string loaiVang;
+    class Bac : VangBac
+    {
+		string kieuBac;
+		string loaiBac;
 		int soLuong;
 
-		public Vang() : base()
+		public Bac() : base()
 		{
 			tuoiVang = 0;
 			loaiVang = "";
 			soLuong = 0;
-		}		
+		}
 		public Vang(string maSP, string tenSP, string hangSX, int donGia,
 			int tuoiVang, string loaiVang, int soLuong)
-			: base (maSP, tenSP, hangSX, donGia)
+			: base(maSP, tenSP, hangSX, donGia)
 		{
 			this.tuoiVang = tuoiVang;
 			this.loaiVang = loaiVang;
