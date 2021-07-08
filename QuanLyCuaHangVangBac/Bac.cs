@@ -6,47 +6,47 @@ using System.Threading.Tasks;
 
 namespace QuanLyCuaHangVangBac
 {
-    class Bac : VangBac
-    {
+	class Bac : VangBac
+	{
 		string kieuBac;
 		string loaiBac;
 		int soLuong;
 
 		public Bac() : base()
 		{
-			tuoiVang = 0;
-			loaiVang = "";
+			kieuBac = "";
+			loaiBac = "";
 			soLuong = 0;
 		}
-		public Vang(string maSP, string tenSP, string hangSX, int donGia,
-			int tuoiVang, string loaiVang, int soLuong)
+		public Bac(string maSP, string tenSP, string hangSX, int donGia,
+			string kieuBac, string loaiBac, int soLuong)
 			: base(maSP, tenSP, hangSX, donGia)
 		{
-			this.tuoiVang = tuoiVang;
-			this.loaiVang = loaiVang;
+			this.kieuBac = kieuBac;
+			this.loaiBac = loaiBac;
 			this.soLuong = soLuong;
 		}
-		public virtual void setTuoivang(int tuoiVang)
+		public void setKieuBac(string kieuBac)
 		{
-			this.tuoiVang = tuoiVang;
+			this.kieuBac = kieuBac;
 		}
-		public virtual void setLoai(string loaiVang)
+		public void setLoai(string loaiBac)
 		{
-			this.loaiVang = loaiVang;
+			this.loaiBac = loaiBac;
 		}
-		public virtual void setSoluong(int soLuong)
+		public void setSoluong(int soLuong)
 		{
 			this.soLuong = soLuong;
 		}
-		public virtual int getTuoivang()
+		public string getKieuBac()
 		{
-			return tuoiVang;
+			return kieuBac;
 		}
-		public virtual string getLoai()
+		public string getLoai()
 		{
-			return loaiVang;
+			return loaiBac;
 		}
-		public virtual int getSoluong()
+		public int getSoluong()
 		{
 			return soLuong;
 		}
@@ -54,20 +54,37 @@ namespace QuanLyCuaHangVangBac
 		{
 			Console.WriteLine("--------------------------------");
 			base.NhapThongTin();
-			Console.Write("Nhap Tuoi Vang: ");
-			tuoiVang = int.Parse(Console.ReadLine());
-			Console.Write("Nhap Loai: ");
-			loaiVang = Console.ReadLine();
+			Console.Write("Nhap Kieu Bac: ");
+			kieuBac = (Console.ReadLine());
+			Console.Write("Nhap Loai Bac: ");
+			loaiBac = Console.ReadLine();
 			Console.Write("Nhap So Luong: ");
 			soLuong = int.Parse(Console.ReadLine());
 		}
 		public override void XuatThongTin()
 		{
 			base.XuatThongTin();
-			Console.WriteLine("Tuoi Vang la: " + tuoiVang);
-			Console.WriteLine("Loai Vang la: " + loaiVang);
+			Console.WriteLine("Kieu Bac la: " + kieuBac);
+			Console.WriteLine("Loai Bac la: " + loaiBac);
 			Console.WriteLine("So luong la: " + soLuong);
 			Console.WriteLine("--------------------------------");
+		}
+		public int XetGiamGia()
+		{
+			if (this.getKieuBac() == "Day chuyen" && this.getLoai() == "8k")
+			{
+				return 4;
+			}
+			else if (this.getKieuBac() == "Lac" && this.getLoai() == "10k")
+			{
+				return 2;
+			}
+			else { return 0; }
+		}
+		public void TinhTongTien()
+		{
+			float TongTien = this.getDongia() / 100 * (100 - this.XetGiamGia());
+			Console.Write("Tong tien la: " + TongTien);
 		}
 	}
 }
